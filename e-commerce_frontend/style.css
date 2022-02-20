@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    margin-left: 1.8rem;
+}
+
+#bodyofindex {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyoflogin {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyofloginadmin {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyofgetorders {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyofcreateproduct {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bodyofcreateorder {
+    background-color: aquamarine;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#getorders_textarea {
+    resize: none;
+    width: 90%;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+.form-header {
+    padding: 20px 0px 0px 28px;
+    font-weight: 500;
+}
+
+.form-all {
+    height: 750px;
+    width: 1000px;
+    border-radius: 20px;
+    box-shadow: rgb(61, 61, 61) 3px 3px 3px 3px;
+}
+
+.form-all-login {
+    height: 550px;
+    width: 620px;
+    border-radius: 20px;
+    box-shadow: rgb(61, 61, 61) 3px 3px 3px 3px;
+}
+
+.product-state {
+    margin: 2rem;
+    width: 80%;
+    border: none;
+    resize: none;
+    color: white;
+    
+}
+
+#form {
+    margin-top: 10px;
+}
+
+#login-form {
+    margin-top: 120px;
+}
+
+#loginadmin-form {
+    margin-top: 120px;
+}
+
+#getordersform {
+    margin-top: 10px;
+}
+
+#createproductform {
+    margin-top: 130px;
+}
+
+#createorderform {
+    margin-top: 110px;
+}
+
+#btn-submit {
+    margin-top: 70px;
+    width: 90%;
+    height: 45px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-weight: 500;
+}
+
+#btn-login {
+    margin-top: 70px;
+    width: 90%;
+    height: 45px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-weight: 500;
+}
+
+#btn-loginadmin {
+    margin-top: 70px;
+    width: 90%;
+    height: 45px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-weight: 500;
+}
+
+#country_input {
+    width: 90%;
+}
+
+#productname_input {
+    width: 90%;
+}
+
+#productdescription_input {
+    width: 90%;
+}
+
+.label-input {
+    margin: 20px 30px 0px 30px;
+    display: flex;
+}
+
+.form_columns {
+    width: 100%;
+
+}
+
+.form_columns input {
+    width: 80%;
+}
+
+h2 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    display: block;
+    width: 38%;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+}

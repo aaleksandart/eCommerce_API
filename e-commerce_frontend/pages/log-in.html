@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="Aleksandar Todorovic, EC Utbildning">
+   <title></title>
+   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+   <link rel="stylesheet" href="../style.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link text-white" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link text-white" href="#">Login</a>
+                <a class="nav-item nav-link text-white" href="./log-in-admin.html">Admin-login</a>
+                <a class="nav-item nav-link text-white" href="./get-orders.html">Get orders</a>
+                <a class="nav-item nav-link text-white" href="./create-product.html">Create product</a>
+                <a class="nav-item nav-link text-white" href="./create-order.html">Create order</a>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div class="container-fluid" id="bodyoflogin">
+        <div class="form-all-login bg-dark">
+            <div class="form-header">
+                <h2>Login</h2>
+            </div>
+            <form class="form" id="login-form" action="">
+                <div class="label-input">
+                    <div class="form_columns">
+                        <label for="">Email</label>
+                        <Input id="loginemail_input" type="text" name="loginemail_input" />
+                    </div>
+                    <div class="form_columns">
+                        <label for="">Password</label>
+                        <Input id="loginpassword_input" type="password" name="loginpassword_input" />
+                    </div>
+                </div>
+                <div class="label-input">
+                    <button id="btn-login">Log In</button>
+                </div>
+                <textarea class="bg-dark product-state" name="loginstate" id="loginstate" readonly></textarea>
+
+            </form>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/124ac6c2b5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="../scripts/script-login.js"></script>
+</body>
+</html>
