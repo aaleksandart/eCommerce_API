@@ -31,8 +31,8 @@ function getOrders() {
         `)
     });})
     }
-
-    form.addEventListener('click', function(e) {
+    
+    form.addEventListener('submit', function(e) {
         e.preventDefault()
         getOrders()
     })

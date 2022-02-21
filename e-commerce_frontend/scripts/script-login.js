@@ -29,10 +29,9 @@ loginform.addEventListener('submit', function(e) {
         password: loginpassword.value
     })
     logIn(loginInfo)
-    
     loginemail.value = ""
     loginpassword.value = ""
-    window.location.reload();
+    window.location.reload()
 })
 
 function checkIfLoggedIn() {

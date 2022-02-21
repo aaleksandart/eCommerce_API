@@ -3,7 +3,7 @@ const login = document.getElementById('btn-loginadmin')
 const loginemail = document.getElementById('loginemailadmin_input')
 const loginpassword = document.getElementById('loginpasswordadmin_input')
 const loginstate = document.getElementById('loginstateadmin')
-
+loginstate.value = ""
 checkIfLoggedIn()
 
 function logIn(loginData) {
@@ -34,6 +34,7 @@ loginform.addEventListener('submit', function(e) {
 })
 
 function checkIfLoggedIn() {
+    console.log(`${sessionStorage.getItem("accessToken-admin")}`)
     if((`${sessionStorage.getItem("accessToken-admin")}`).length > 50) {
         loginstate.value = "You are logged in as a admin."
     }

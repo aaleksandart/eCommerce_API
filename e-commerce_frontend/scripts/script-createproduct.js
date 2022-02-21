@@ -42,7 +42,7 @@ form.addEventListener('submit', function(e) {
 })
 
 function checkIfLoggedIn() {
-    if((`${sessionStorage.getItem("accessToken")}`).length < 40 && (`${sessionStorage.getItem("accessToken-admin")}`).length < 40) {
+    if((`${sessionStorage.getItem("accessToken-admin")}`).length < 50) {
         productstate.value = "You need to log in as a admin."
     }
 }
