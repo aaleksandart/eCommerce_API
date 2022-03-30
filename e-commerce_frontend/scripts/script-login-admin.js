@@ -30,7 +30,7 @@ loginform.addEventListener('submit', function(e) {
     logIn(loginInfo)
     loginemail.value = ""
     loginpassword.value = ""
-    window.location.reload();
+    loginstate.value = "You are logged in as an admin."
 })
 
 function checkIfLoggedIn() {
